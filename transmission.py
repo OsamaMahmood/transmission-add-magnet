@@ -14,3 +14,4 @@ for x in links:
     }
     r = requests.post('http://localhost:9091/transmission/rpc',
                       headers=s.headers, json=payload)
+print("Done all links added.")
